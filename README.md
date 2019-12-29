@@ -11,11 +11,11 @@ A User with no access in Company shouldn’t see the articles.
 Use Casbin for Authorisation Roles.
 
 Code Quality is of prime importance and you will be accessed for
-·         Solutions
-·         Code quality
-·         Modularity of code
-·         Use micro-services pattern (Deploy Casbin as a separate service)
-·         Use python for your application development
+1. Solutions
+2. Code quality
+3. Modularity of code
+4. Use micro-services pattern (Deploy Casbin as a separate service)
+5. Use python for your application development
 
 Build using Dockerfile in Github Actions or manually and push to AWS ECR. (Github Actions a plus).
 Deploy Casbin and python application on Fargate in AWS.
