@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nara Central</title>
+</head>
+<body>
+
+</body>
+</html>{% extends "base.html" %}
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <!-- Blog Entries Column -->
+            <div class="col-md-8 mt-3 left">
+                <h2>Login</h2>
+                    <form method="post">
+                      {% csrf_token %}
+                      {{ form.as_p }}
+                      <button type="submit">Login</button>
+                    </form>
+            </div>
+        </div>
+    </div>
+{%endblock%}
